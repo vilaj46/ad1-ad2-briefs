@@ -1,0 +1,11 @@
+.block {
+  height: 5%;
+}
+
+.topError {
+  color: red;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 100%;
+  padding: 1%;
+}

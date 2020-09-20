@@ -1,0 +1,15 @@
+.main {
+  min-width: 20%;
+  display: flex;
+  background-color: #333;
+}
+
+.sub {
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  width: 80%;
+  position: relative;
+}

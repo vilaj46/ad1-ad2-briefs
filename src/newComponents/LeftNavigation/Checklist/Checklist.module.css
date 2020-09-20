@@ -1,0 +1,70 @@
+.main {
+  background-color: #ffffff;
+  height: 95%;
+}
+
+.check {
+  display: flex;
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 20px 0;
+  padding-left: 5px;
+  word-wrap: break-word;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.check:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.completed:hover {
+  text-decoration: underline line-through;
+}
+
+.important {
+  margin-right: 5%;
+}
+
+.inherit {
+  text-decoration: inherit;
+}
+
+.remove {
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.opposite {
+  display: none;
+  text-decoration: inherit;
+}
+
+.completed:hover .opposite {
+  text-decoration: underline line-through;
+}
+
+@media only screen and (max-width: 1330px) {
+  .remove {
+    display: none;
+  }
+
+  .opposite {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .check {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .check {
+    font-size: 0.9rem;
+  }
+}

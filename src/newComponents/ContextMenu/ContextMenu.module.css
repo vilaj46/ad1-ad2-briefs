@@ -1,0 +1,23 @@
+.menu {
+  position: absolute;
+  z-index: 10;
+  background-color: #333;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.itemContainer {
+  width: 100%;
+}
+
+.item {
+  width: 90%;
+  margin: 0 auto;
+  padding: 8px 10px;
+  border: 1px solid transparent;
+}
+
+.itemContainer:hover {
+  cursor: pointer;
+  background-color: #1665c4;
+}

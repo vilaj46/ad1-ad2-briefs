@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  margin-top: 40px;
+}
+
+.tocEntries {
+  display: grid;
+  grid-column: 2 / 9;
+  row-gap: 39px;
+}
+
+.tocEntry {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  border: 1px solid transparent;
+}
+
+.tocEntry:hover {
+  border-top: 1px dashed black;
+  border-bottom: 1px dashed black;
+}
+
+.entryText {
+  border: none;
+  font-size: 1.5rem;
+  resize: none;
+}
+
+.entryNumber {
+  text-align: right;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  resize: none;
+}
+
+.error {
+  border-top: 1px dashed red;
+  border-bottom: 1px dashed red;
+}

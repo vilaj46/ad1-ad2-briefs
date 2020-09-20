@@ -1,0 +1,36 @@
+.choice {
+  list-style-type: none;
+  padding: 14px 0;
+}
+
+.first {
+  padding-top: 0;
+}
+
+.choice:hover,
+.label:hover,
+.typeInput:hover {
+  cursor: pointer;
+}
+
+.label {
+  margin-left: 5px;
+}
+
+.choice:hover .label {
+  text-decoration: underline;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.error .last {
+  padding-bottom: 0;
+}
+
+@media only screen and (max-width: 1350px) {
+  .choice {
+    padding: 0;
+  }
+}

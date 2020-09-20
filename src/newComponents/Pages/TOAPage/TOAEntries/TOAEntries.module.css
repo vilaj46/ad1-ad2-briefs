@@ -1,0 +1,48 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  margin-top: 40px;
+}
+
+.toaEntries {
+  display: grid;
+  grid-column: 2 / 9;
+  row-gap: 39px;
+}
+
+.toaEntry {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  border: 2px solid transparent;
+}
+
+.toaEntry:hover {
+  border: 1px dashed black;
+  /* border-top: 1px dashed black;
+  border-bottom: 1px dashed black; */
+}
+
+.entryText {
+  grid-column: 1;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  resize: none;
+}
+
+.entryNumber {
+  grid-column: 2;
+  text-align: right;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  resize: none;
+}
+
+.error {
+  border: 1px dashed red;
+}
+
+.error:hover {
+  border: 2px dashed red;
+}

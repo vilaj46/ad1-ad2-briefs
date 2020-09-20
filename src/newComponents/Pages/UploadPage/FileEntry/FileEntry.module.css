@@ -1,0 +1,44 @@
+.fileText {
+  margin: auto 0;
+}
+
+.image {
+  padding: 10px 0;
+}
+
+.entry {
+  display: flex;
+}
+
+.entryError {
+  color: red;
+}
+
+.right {
+  margin: 0 10px;
+}
+
+.folder {
+  margin-right: 5px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.collapse {
+  margin-right: 10px;
+  transform: rotate(180deg);
+  transition: transform 1s;
+}
+
+.collapse:hover,
+.collapse90 {
+  cursor: pointer;
+}
+
+.collapse90 {
+  margin-right: 10px;
+  transform: rotate(90deg);
+  transition: transform 1s;
+}

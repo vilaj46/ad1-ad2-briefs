@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #1665c4;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 20px;
+  overflow-wrap: break-word;
+}
+
+.text {
+  margin: 10px 0;
+}
+
+.error {
+  color: red;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.hide {
+  opacity: 0;
+}

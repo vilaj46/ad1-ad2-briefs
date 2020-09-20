@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Canterbury";
+  src: url("../../../../fonts/Canterbury.ttf");
+}
+
+.coverHeader {
+  grid-row: 1;
+  grid-column: 2/9;
+}
+
+.headerText {
+  font-family: "Canterbury";
+  text-align: center;
+}
+
+.supremeCourt {
+  font-size: 3rem;
+}
+
+.newYork {
+  font-size: 2rem;
+}
+
+.extraMargin {
+  margin-top: 20px;
+}

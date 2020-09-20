@@ -1,0 +1,32 @@
+.main {
+  width: 30%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.stepContainer {
+  list-style: none;
+  width: 70%;
+  border: 1px solid white;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 3px;
+  border-radius: 25%;
+  text-align: center;
+}
+
+.stepContainer:hover {
+  cursor: pointer;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.active:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+.active {
+  background-color: #6e6e6e;
+}

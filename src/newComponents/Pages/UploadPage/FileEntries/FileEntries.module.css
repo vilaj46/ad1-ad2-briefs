@@ -1,0 +1,16 @@
+.filesContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  width: 95%;
+  margin: 0 auto;
+}
+
+.entriesContainer {
+  display: grid;
+}
+
+.top {
+  margin-top: 20px;
+  grid-row: 1;
+  grid-column: 2 / 3;
+}

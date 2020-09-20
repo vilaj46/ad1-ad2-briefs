@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  font-family: "Roboto", "Times New Roman", Times, serif;
+  height: 100vh;
+}
+
+.sub {
+  width: 100%;
+  padding: 5px;
+  background-color: #333;
+  display: flex;
+}
+
+.page {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.darkenBackground {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.highlightBorder {
+  background-color: #fff2ac;
+  background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .page {
+    width: 95%;
+  }
+}

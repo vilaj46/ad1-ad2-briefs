@@ -1,0 +1,27 @@
+.input {
+  margin: 0;
+  width: 100%;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.topIsland {
+  border-top: 2px solid red;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+}
+
+.bottomIsland {
+  border-bottom: 2px solid red;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+}
+
+@media only screen and (max-width: 1550px) {
+  .input {
+    margin-right: 10px;
+    padding: 5px 0;
+  }
+}
